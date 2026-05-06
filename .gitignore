@@ -1,0 +1,26 @@
+# Maven
+hospital-queue-backend/target/
+hospital-queue-backend/.mvn/
+*.jar
+*.war
+
+# Node
+hospital-queue-frontend/node_modules/
+hospital-queue-frontend/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# Environment
+*.env
+.env.local
+
+# Firebase (sensitive)
+hospital-queue-backend/src/main/resources/firebase-service-account.json
+
+# OS
+.DS_Store
+Thumbs.db
